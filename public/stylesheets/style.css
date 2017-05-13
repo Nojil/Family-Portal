@@ -1,0 +1,120 @@
+html {
+    background-color: #232323;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #191919;
+    text-align: center;
+    color: #fff
+}
+
+#side-menu {
+    width: 75px;
+    height: 100vh;
+    float: left;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#Main-container {
+    float: left;
+    height: 100vh;
+    background-color: #232323;
+    color: #fff;
+    width: calc(100% - 75px);
+}
+
+#content {
+    margin: 70px;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    width: 75px;
+    float: left;
+    height: 100%;
+    color: #fff;
+}
+
+.logo i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.top-menu {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MainTitle {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+ul.top-menu li {
+    float: left;
+    margin: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+ul.side-menu {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul.side-menu  li {
+    width: 100%;
+    height: 50px;
+    margin: 15px 0 15px 0;
+}
+
+ul.side-menu li.Divider {
+    width: 100%;
+    height: 0px;
+    margin: 0;
+}
+
+ul.side-menu  li i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Top-Menu-Active:after {
+    border: 1px solid red;
+}
+
+.Side-Menu-Active {
+    background-color: #232323;
+}
